@@ -1,0 +1,28 @@
+name: rna_reconstruct
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - cudatoolkit=11.3
+  - pip
+  - pandas
+  - numpy
+  - scipy
+  - fastparquet
+  - pyarrow
+  - tqdm
+  - matplotlib
+  - jupyter
+  - pip:
+    - fastai==2.7.13
+    - einops==0.7.0
+    - pytorch-lightning==2.0.0
+    - tensorboardx==2.2
+    - torchmetrics==0.11.4
+    - torchscan==0.1.2
+    - x-transformers==1.24.5
+    - kaggle==1.5.16
+    - tensorly==0.8.1
+    - tensorly-torch==0.4.0
